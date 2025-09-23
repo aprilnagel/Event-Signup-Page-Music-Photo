@@ -17,7 +17,7 @@ nav{
     color:black;
 
     display: flex;
-        justify-content: space-around ; 
+        justify-content: space-around; 
         position:sticky;
 }
 
@@ -34,15 +34,15 @@ main{
 fieldset{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 2px solid white;
-    background-color: rgba(244, 227, 205, 0.832);;
-    
+    background-color: rgba(244, 227, 205, 0.832);
 }
 
 /* form legends */
     #pinfo{
         font-size: 30px;
-        font-display:
+        
     }
+
     #Experiencelevel{
         font-size: 30px;
     }
@@ -60,13 +60,13 @@ fieldset{
 legend {
     text-align: center;
     padding: 10px;
-        }
-    #address, 
+    }
+
+#address, 
         input[type="radio"]{
             text-align: start;
         }
         
-
 button{
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -78,14 +78,13 @@ button{
     display: inline-flex;
         justify-content: center;
         align-items: center;
-        left: 0
-        bottom: 0
+        left: 0;
+        bottom: 0;
 }
 button:Hover{
     background:rgba(173, 185, 146, 0.879);
 }
 footer{
     text-align: center;
-    padding: 5px
-    
+    padding: 5px;
 }
