@@ -46,7 +46,6 @@ main{
     position:relative;
     display: flex;
     flex-direction: column;
-    justify-content: ;
 }
 
 main > h3{
