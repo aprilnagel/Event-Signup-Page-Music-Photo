@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="signupstyle.css">
+    <link rel="stylesheet" href="./signupstyle.css">
 </head>
 <body>
     <header>
@@ -18,7 +18,7 @@
     <main>
         <form action="">
         <fieldset id="Personalinfo">
-            <legend>Personal Info</legend>
+            <legend id="pinfo">Personal Info</legend>
             <label for="Name">Name:</label>
             <input type="text" id="Name" placeholder="First and Last Name" required><br>
             <Label for="Phone">Phone:</Label>
@@ -104,12 +104,10 @@
                 <label for="Advanced">Advanced (5+ years)</label><br><br>
         </fieldset>
        </form>
-
-       <Button id="Submitform">Submit</Button>
-
     </main>
-    <footer id="copy">
-        <p>&copy;April Nicole Photos</p>
+    <footer>
+        <Button class="button">Submit</Button>
+        <button class="button">Clear</button>
     </footer>
 </body>
 </html>

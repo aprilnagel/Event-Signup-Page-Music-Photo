@@ -4,58 +4,97 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100%;
 
 }
-
-nav{
-    border: 5px solid black;
-    margin-top: 10vh;
-    margin-left: 40vw;
-    margin-right: 40vw;
-    padding: 10px;
-    font-size: 24px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+header{
+    width: 100%;
     display: flex;
-        justify-content: space-around ; 
-        position:sticky;
-    
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+    word-spacing: 30px;
 }
+nav{
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+a:hover{
+    color: white;}
 
 main{
-    border: 6px solid black;
-    margin: 5vh;
+    margin: 1vh;
     margin-left: 40vw;
     margin-right: 40vw;
     text-align: center;
 }
-    
-#Personalinfo{
-    display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    text-align: center;
+
+fieldset{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid white;
+    background-color: rgba(244, 227, 205, 0.832);
+    border-radius: 10px;
 }
-    
-#address,
-    legend {
+
+/* form legends */
+    #pinfo{
+        font-size: 30px;
+        
+    }
+
+    #Experiencelevel{
+        font-size: 30px;
+    }
+
+    /* Form formatting */
+    #Personalinfo{
+        display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         text-align: center;
+        
     }
+
+legend {
+    text-align: center;
+    padding: 10px;
+    }
+
 #address, 
-    input[type="radio"]{
-        text-align: start;
-    }
-#Submitform{
-    margin-top: 10px;
-    padding: 5px;
+        input[type="radio"]{
+            text-align: start;
+            border-radius: 20px;
+        }
+        
+button{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    border: 5px solid rgb(228, 223, 223);
+    border-radius: 20px;
+    background-color: rgb(62, 84, 67);
+    display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+        bottom: 0;
+}
+button:Hover{
+    background:rgba(173, 185, 146, 0.879);
 }
 footer{
-    border: 5px solid black;
-    position: fixed;
-    display: flex;
-        justify-content: center;
-        align-items: end;
-
+    text-align: center;
+    bottom: 1vh;
+    padding: 5px;
 }
-
